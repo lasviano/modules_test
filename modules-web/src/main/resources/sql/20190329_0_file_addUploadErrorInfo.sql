@@ -1,0 +1,1 @@
+ALTER TABLE bimface_file.file ADD COLUMN upload_error_code INT DEFAULT NULL COMMENT '文件上传失败的code' AFTER etag;
